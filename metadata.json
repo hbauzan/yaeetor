@@ -1,0 +1,6 @@
+{
+  "name": "Extractor de Audio de Youtube pal etor",
+  "description": "Aplicación sencilla para extraer y descargar audio en formato MP3 o WAV a partir de enlaces de YouTube.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
