@@ -14,9 +14,18 @@
   <b>Una suite moderna, rápida y estilizada para extraer pistas de audio de YouTube en formato MP3 (320kbps) y WAV sin pérdida.</b>
 </p>
 
-```
-🏷️ Topics: youtube-to-mp3 · youtube-audio-extractor · yt-dlp · youtube-downloader · audio-converter · mp3-320kbps · wav-lossless · react19 · typescript · express · vite · cloud-run · ffmpeg
-```
+<p align="center">
+  <a href="https://github.com/topics/youtube-to-mp3"><img src="https://img.shields.io/badge/topic-youtube--to--mp3-0969da?style=flat-square" alt="youtube-to-mp3" /></a>
+  <a href="https://github.com/topics/youtube-audio-extractor"><img src="https://img.shields.io/badge/topic-youtube--audio--extractor-0969da?style=flat-square" alt="youtube-audio-extractor" /></a>
+  <a href="https://github.com/topics/yt-dlp"><img src="https://img.shields.io/badge/topic-yt--dlp-0969da?style=flat-square" alt="yt-dlp" /></a>
+  <a href="https://github.com/topics/youtube-downloader"><img src="https://img.shields.io/badge/topic-youtube--downloader-0969da?style=flat-square" alt="youtube-downloader" /></a>
+  <a href="https://github.com/topics/audio-extractor"><img src="https://img.shields.io/badge/topic-audio--extractor-0969da?style=flat-square" alt="audio-extractor" /></a>
+  <a href="https://github.com/topics/mp3-converter"><img src="https://img.shields.io/badge/topic-mp3--converter-0969da?style=flat-square" alt="mp3-converter" /></a>
+  <a href="https://github.com/topics/ffmpeg"><img src="https://img.shields.io/badge/topic-ffmpeg-0969da?style=flat-square" alt="ffmpeg" /></a>
+  <a href="https://github.com/topics/react19"><img src="https://img.shields.io/badge/topic-react19-0969da?style=flat-square" alt="react19" /></a>
+  <a href="https://github.com/topics/typescript"><img src="https://img.shields.io/badge/topic-typescript-0969da?style=flat-square" alt="typescript" /></a>
+  <a href="https://github.com/topics/cloud-run"><img src="https://img.shields.io/badge/topic-cloud--run-0969da?style=flat-square" alt="cloud-run" /></a>
+</p>
 
 > 🌐 **¿Te embola descargarlo e instalarlo en tu compu?**  
 > Podés probarlo directamente online desde el navegador sin instalar nada:  
@@ -24,7 +33,7 @@
 >  
 > 📩 *Si por alguna razón no anda o encontrás un error, por favor avisame a [hbauzan@gmail.com](mailto:hbauzan@gmail.com).*
 
-[Demo Online](#-demo-online) • [Características](#-características-principales) • [Tecnologías](#-stack-tecnológico) • [Puesta en Marcha](#-puesta-en-marcha-e-instalación) • [Uso](#-guía-de-uso) • [Licencia](#-licencia) • [Contacto](#-soporte-y-contacto)
+[Demo Online](#-demo-online) • [Características](#-características-principales) • [Tecnologías](#-stack-tecnológico) • [Puesta en Marcha](#-puesta-en-marcha-e-instalación) • [Uso](#-guía-de-uso) • [Etiquetas GitHub](#-configuración-recomendada-para-el-about-de-github) • [Licencia](#-licencia) • [Contacto](#-soporte-y-contacto)
 
 </div>
 
@@ -150,6 +159,27 @@ npm start
 ```
 
 El servidor escucha en `0.0.0.0:3000` y gestiona tanto la API REST como los archivos estáticos de la aplicación web de forma autónoma.
+
+---
+
+## 🏷️ Configuración recomendada para el "About" de GitHub
+
+Para que tu repositorio aparezca en las búsquedas, tendencias y explore de GitHub (como en tu otra herramienta), hacé clic en el ícono de engranaje ⚙️ al lado de **About** en la barra lateral derecha de tu repo en GitHub y pegá estos datos:
+
+### **Description**
+```text
+Fast, high-fidelity YouTube audio extractor to MP3 320kbps & Lossless WAV with real-time preview, antibot bypass, and automated setup.
+```
+
+### **Website**
+```text
+https://ai.studio/apps/6606579f-724b-4b3b-805f-02c64089f1e2?fullscreenApplet=true
+```
+
+### **Topics (Etiquetas)**
+*Copiá y pegá cada una en el campo de "Topics":*
+
+`youtube` `youtube-audio` `youtube-audio-extractor` `youtube-to-mp3` `youtube-downloader` `yt-dlp` `ffmpeg` `audio-extractor` `mp3-converter` `mp3` `wav` `lossless-audio` `audio-player` `streaming` `music-downloader` `react19` `typescript` `express` `vite` `tailwind` `tailwindcss` `cloud-run` `web-app`
 
 ---
 
