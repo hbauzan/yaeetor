@@ -8,12 +8,23 @@
 ![Express](https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![yt--dlp](https://img.shields.io/badge/yt--dlp-Latest-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](./LICENSE)
 
 <p align="center">
   <b>Una suite moderna, rápida y estilizada para extraer pistas de audio de YouTube en formato MP3 (320kbps) y WAV sin pérdida.</b>
 </p>
 
-[Características](#-características-principales) • [Tecnologías](#-stack-tecnológico) • [Instalación](#-instalación-rápida) • [Uso](#-guía-de-uso) • [Despliegue](#-despliegue-en-producción)
+```
+🏷️ Topics: youtube-to-mp3 · youtube-audio-extractor · yt-dlp · youtube-downloader · audio-converter · mp3-320kbps · wav-lossless · react19 · typescript · express · vite · cloud-run · ffmpeg
+```
+
+> 🌐 **¿Te embola descargarlo e instalarlo en tu compu?**  
+> Podés probarlo directamente online desde el navegador sin instalar nada:  
+> 🚀 **[Abrir Extractor Online en Google AI Studio](https://ai.studio/apps/6606579f-724b-4b3b-805f-02c64089f1e2?fullscreenApplet=true)**  
+>  
+> 📩 *Si por alguna razón no anda o encontrás un error, por favor avisame a [hbauzan@gmail.com](mailto:hbauzan@gmail.com).*
+
+[Demo Online](#-demo-online) • [Características](#-características-principales) • [Tecnologías](#-stack-tecnológico) • [Puesta en Marcha](#-puesta-en-marcha-e-instalación) • [Uso](#-guía-de-uso) • [Licencia](#-licencia) • [Contacto](#-soporte-y-contacto)
 
 </div>
 
@@ -46,15 +57,41 @@
 
 ---
 
-## 🚀 Instalación Rápida
+## 🚀 Puesta en Marcha e Instalación
 
 ### Requisitos Previos
 
 - **Node.js**: v20 o v22+
-- **ffmpeg** instalado en el sistema (`apt-get install ffmpeg` o `brew install ffmpeg`)
-- **yt-dlp** (el repositorio ya incluye binario optimizado en `/bin/yt-dlp` o usa el del sistema)
+- **Python 3**: Para ejecutar el motor `yt-dlp`
+- **ffmpeg**: Conversor de medios para MP3/WAV (el script `setup.sh` intentará asistirte en su instalación)
 
-### Pasos
+---
+
+### ⚡ Opción A: Automatizada con `setup.sh` (RECOMENDADA)
+
+La forma más rápida y confiable de levantar el proyecto en **Linux** y **macOS** (compatible tanto con procesadores Apple Silicon M1/M2/M3 como con Intel).
+
+El script realiza de forma autónoma:
+1. Detecta tu sistema operativo (Linux / macOS).
+2. Valida la presencia de **Node.js**, **npm** y **Python 3**.
+3. Comprueba **ffmpeg** e intenta instalarlo automáticamente con Homebrew en macOS o te indica el comando para tu distro Linux.
+4. Verifica los permisos de ejecución del motor `yt-dlp` en `./bin/yt-dlp`.
+5. Ejecuta `npm install` optimizado.
+6. Levanta el servidor en `http://localhost:3000` y abre automáticamente la aplicación en tu navegador predeterminado.
+
+```bash
+# 1. Dar permisos de ejecución al script (solo la primera vez)
+chmod +x setup.sh
+
+# 2. Iniciar el aplicativo
+./setup.sh
+```
+
+---
+
+### 🛠️ Opción B: Instalación Estándar (Manual con npm)
+
+Si prefieres el flujo manual tradicional:
 
 1. **Clonar el repositorio:**
    ```bash
@@ -62,16 +99,21 @@
    cd extractor-audio-youtube-pal-etor
    ```
 
-2. **Instalar dependencias:**
+2. **Asegurar permisos en el motor yt-dlp:**
+   ```bash
+   chmod +x bin/yt-dlp
+   ```
+
+3. **Instalar dependencias:**
    ```bash
    npm install
    ```
 
-3. **Iniciar en modo desarrollo:**
+4. **Iniciar en modo desarrollo:**
    ```bash
    npm run dev
    ```
-   Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+   Luego abre [http://localhost:3000](http://localhost:3000) en tu navegador web.
 
 ---
 
@@ -108,6 +150,23 @@ npm start
 ```
 
 El servidor escucha en `0.0.0.0:3000` y gestiona tanto la API REST como los archivos estáticos de la aplicación web de forma autónoma.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está liberado bajo los términos de la **[Licencia Apache 2.0](./LICENSE)**.
+
+Eres libre de usar, estudiar, modificar, compilar y distribuir este software, tanto con fines personales como comerciales, con la correspondiente atribución de autoría descrita en el archivo [LICENSE](./LICENSE).
+
+---
+
+## 📩 Soporte y Contacto
+
+¿Tenés alguna duda, sugerencia o encontraste algún error al extraer un audio?
+
+- 💬 Escribime directamente a: **[hbauzan@gmail.com](mailto:hbauzan@gmail.com)**
+- 🌐 Probá la app en vivo en: **[Google AI Studio Live App](https://ai.studio/apps/6606579f-724b-4b3b-805f-02c64089f1e2?fullscreenApplet=true)**
 
 ---
 
