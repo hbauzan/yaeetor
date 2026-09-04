@@ -162,27 +162,6 @@ El servidor escucha en `0.0.0.0:3000` y gestiona tanto la API REST como los arch
 
 ---
 
-## 🏷️ Configuración recomendada para el "About" de GitHub
-
-Para que tu repositorio aparezca en las búsquedas, tendencias y explore de GitHub (como en tu otra herramienta), hacé clic en el ícono de engranaje ⚙️ al lado de **About** en la barra lateral derecha de tu repo en GitHub y pegá estos datos:
-
-### **Description**
-```text
-Fast, high-fidelity YouTube audio extractor to MP3 320kbps & Lossless WAV with real-time preview, antibot bypass, and automated setup.
-```
-
-### **Website**
-```text
-https://ai.studio/apps/6606579f-724b-4b3b-805f-02c64089f1e2?fullscreenApplet=true
-```
-
-### **Topics (Etiquetas)**
-*Copiá y pegá cada una en el campo de "Topics":*
-
-`youtube` `youtube-audio` `youtube-audio-extractor` `youtube-to-mp3` `youtube-downloader` `yt-dlp` `ffmpeg` `audio-extractor` `mp3-converter` `mp3` `wav` `lossless-audio` `audio-player` `streaming` `music-downloader` `react19` `typescript` `express` `vite` `tailwind` `tailwindcss` `cloud-run` `web-app`
-
----
-
 ## 📄 Licencia
 
 Este proyecto está liberado bajo los términos de la **[Licencia Apache 2.0](./LICENSE)**.
@@ -202,6 +181,6 @@ Eres libre de usar, estudiar, modificar, compilar y distribuir este software, ta
 
 <div align="center">
 
-Hecho con precisión y buen sonido 🎧
+Hecho por eletor con tiempo libre, thc y buena musica. 🎧
 
 </div>
